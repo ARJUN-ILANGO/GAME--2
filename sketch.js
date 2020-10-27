@@ -119,7 +119,7 @@ function draw() {
     background(back_Image);
   }
 
-  circle(displayWidth/2+250,displayHeight/2+25,100,100);
+  circle(displayWidth/2+150,displayHeight/2+25,100,100);
   
   if(keyDown("space")){
     gameState = PLAY;
