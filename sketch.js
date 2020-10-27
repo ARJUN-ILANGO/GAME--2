@@ -36,7 +36,7 @@ function preload(){
 
     // back_image = loadImage("road.png");
 
-     gun_shot_image = loadImage("shotGun.png");
+     gun_shot_image = loadImage("shotgun.png");
       
      gameOver_image = loadImage("gameOver.png");
     
