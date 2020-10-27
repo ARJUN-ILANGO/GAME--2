@@ -88,7 +88,7 @@ function setup(){
   restart.visible = false;
   
 
-  changeGun = createSprite(displayWidth/2-400,displayHeight/2+100,50,50);
+  changeGun = createSprite(displayWidth/2-200,displayHeight/2+100,50,50);
   changeGun.addImage(changeGunImg);
   changeGun.scale = 0.5;
 
