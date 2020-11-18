@@ -271,7 +271,7 @@ function spawnGunshot(){
     shot=createSprite(player.x+10,player.y-35,10,10);
     shot.addImage(gun_shot_image);
     shot.scale = 0.05;
-    shot.velocityY=-10;
+    shot.velocityY=-(6 + 3*score/100);
     shot.lifetime=150;
     GunshotGroup.add(shot);
   }
@@ -289,7 +289,7 @@ function spawnGunshot(){
    zom.x = Math.round(random(600,800));
    zom.addImage(aiImg);
    zom.scale = 0.2;
-   zom.velocityY = 5;
+   zom.velocityY = (6 + 3*score/100);
    zom.lifetime = 160;
   
    aiGroup.add(zom);
@@ -303,7 +303,7 @@ function spawnZom2(){
    zom1.x = Math.round(random(600,800));
    zom1.addImage(aiImg2);
   zom1.scale = 0.2;
-   zom1.velocityY = 5;
+   zom1.velocityY = (6 + 3*score/100);
    zom1.lifetime = 160;
   
    aiGroup1.add(zom1);
